@@ -3,6 +3,7 @@
 <head>
     <#include "./partials/head.ftl" />
     <link href="css/login.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UCSB Q&A</title>
 </head>
 <body>
@@ -26,8 +27,10 @@
             </form>
         </div>
         <a id="reg_link" href="/register">Don't have an account? Click here to register!</a>
-        <img id="qa" src="img/qa.png" alt="qa">
-        <img id="palm_tree" src="img/palm_tree.png" alt="palm tree">
+        <div class="mobilehidden">
+            <img id="qa" src="img/qa.png" alt="qa">
+            <img id="palm_tree" src="img/palm_tree.png" alt="palm tree">
+        </div>
     </div>
 </body>
 </html>
