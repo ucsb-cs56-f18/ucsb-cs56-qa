@@ -1,4 +1,6 @@
 .vscode
+bin/
+target/
 
 # Compiled class file
 *.class
