@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
 <head>
-    <#include "./partials/head.ftl" />
+    <#include "head.ftl" />
     <link href="css/home.css" rel="stylesheet" />
     <title>Home</title>
 </head>
 <body>
-    <#include "./partials/navbar.ftl" />
+    <#include "navbar.ftl" />
     <div class="p-5" id="main_container">
         <div class="card" style="width: 18rem; display: inline-block">
             <img class="card-img-top" src="img/placeholder.jpg" alt="Card image cap">
@@ -193,5 +194,6 @@
             </div>
         </div>
     </div>
+    <#include "footer.ftl" />
 </body>
 </html>

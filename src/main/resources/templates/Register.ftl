@@ -1,8 +1,10 @@
 <!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
 <html>
  <head>
    <title>Sign Up</title>
-    <#include "./partials/head.ftl" />
+    <#include "head.ftl"/>
  </head>
  <body>
    
@@ -12,7 +14,7 @@
   <p>Enter pass:</p>
   <input type= "text" name="textbox1" size="50" />
   <p></p>
-  <a href="/home"><button auto="autofocus">Register</button></a>
-
+  <a href="/login"><button auto="autofocus">Register</button></a>
+ <#include "footer.ftl" />
  </body>
 </html>

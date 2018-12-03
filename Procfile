@@ -1,0 +1,1 @@
+web: java $JAVA_OPTS -jar target/spring-boot-github-oauth-demo01.jar --server.port=$PORT

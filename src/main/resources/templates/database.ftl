@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <!-- Sample function to write data to Firebase -->
-<#include "head.ftl">
+<#include "head.ftl" />
 <script type="text/javascript">
 	// var database = firebase.database();
 

@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Brand -->
-  <a class="navbar-brand" href="/home">
+  <a class="navbar-brand" href="/index">
     <img src="img/UCSB.png"  height="32" class="d-inline-block align-top" alt="">
     Q&A
   </a>
