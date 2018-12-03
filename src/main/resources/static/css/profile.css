@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#wrapper {
+    margin: 0;
+    height: 50rem;
+}
+
+    #profile_pic {
+        width: 98.8%;
+    }
+
+    #q_title {
+        text-align: center;
+    }
+
+    #stat_title {
+        text-align: center;
+    }
+
+    #piechart {
+        width: 100%;
+        background-color: transparent;
+    }
+
+    .big_three {
+        text-align: center;
+    }
