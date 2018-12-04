@@ -1,0 +1,11 @@
+{
+    "github_client_id":"67be20bd29441074166a",
+    "github_client_secret":"fb299250d22a7535e51f4b350889e209d4b2d7a4",
+    "http.port":"8081",
+    "server.port":"8082",
+    "server.ssl.key-password":"password",
+    "server.ssl.key-store":"classpath:KeyStore.jks",
+    "server.ssl.key-store-type":"JKS",
+    "baseUrl":"https://127.0.0.1:8082",
+    "salt":"fill-this-with-random-characters"
+}
