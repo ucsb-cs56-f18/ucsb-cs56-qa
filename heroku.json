@@ -1,0 +1,6 @@
+{
+    "github_client_id":"6eea9640aeee11e4bad0",
+    "github_client_secret":"a6dc1f677693e0efd56ee232f8524d33776fa596",
+    "baseUrl":"https://test-qa-auth.herokuapp.com",
+    "salt":"12345678901234567890123456789012"
+}

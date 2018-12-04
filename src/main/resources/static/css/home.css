@@ -17,7 +17,7 @@
         width: 36rem;
         height: 40rem;
         text-align: center;
-        overflow: auto;
+        overflow: auto; 
     }
 
         #question_box {
@@ -174,4 +174,5 @@
                             display: inline-block;
                             width: 90%;
                         }
+
 
