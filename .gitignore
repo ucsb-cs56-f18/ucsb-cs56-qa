@@ -16,3 +16,4 @@ bin/
 *.iml
 .idea
 sp-metadata.xml
+.DS_Store
