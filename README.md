@@ -19,6 +19,7 @@ Link to Website: https://ucsb-cs56-qa.herokuapp.com/
 
 1. Go to [Firebase Console](https://console.firebase.google.com/) and set up a new project.
 2. Select the new project and go to "Project Settings" -> "Service Accounts" -> "Firebase Admin SDK", copy the Java version of Admin SDK configuration snippet, and click "Generate new private key".
+<<<<<<< HEAD
 3. Rename the downloaded .json file to `firebase-auth.json` and move it to `src/main/resource/static/auth/` directory.
 4. Modify `static` field in `DatabaseAPI.java` with copied contents:
 ```
@@ -41,6 +42,23 @@ Link to Website: https://ucsb-cs56-qa.herokuapp.com/
             e.printStackTrace();
         }
     }
+=======
+3. Rename the downloaded json file to `experimental-prj-firebase-adminsdk.json` and move it to `src/edu/static/auth/` directory.
+4. Modify `static` field in `DatabaseAPI.java` with copied contents:
+```
+// You can copy these code
+static {
+  FileInputStream serviceAccount =
+    new FileInputStream("path/to/serviceAccountKey.json");
+
+  FirebaseOptions options = new FirebaseOptions.Builder()
+    .setCredentials(GoogleCredentials.fromStream(serviceAccount))
+    .setDatabaseUrl("https://<your-project-name>.firebaseio.com")
+    .build();
+
+  FirebaseApp.initializeApp(options);
+}
+>>>>>>> 35ceca0e3effba255d61154ec95a6d0629a955d2
 ```
 5. Save the change and now you can use `mvn spring-boot:run` to test the webapp in `http://localhost:8080/`.
 
